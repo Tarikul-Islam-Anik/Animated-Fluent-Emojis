@@ -2,12 +2,12 @@ import { DocumentTextIcon, PhotographIcon } from "@heroicons/react/outline";
 import DarkMode from "./darkmode_btn";
 export const Hero = () => {
   return (
-    <section class="relative col-span-full mx-auto w-full max-w-7xl items-center px-5 pt-12 pb-6 md:px-12 lg:px-16 lg:pt-24">
-      <div class="mx-auto flex w-full text-left">
-        <div class="relative mx-auto inline-flex items-center align-middle">
-          <div class="text-center">
+    <section className="relative col-span-full mx-auto w-full max-w-7xl items-center px-5 pt-12 pb-6 md:px-12 lg:px-16 lg:pt-24">
+      <div className="mx-auto flex w-full text-left">
+        <div className="relative mx-auto inline-flex items-center align-middle">
+          <div className="text-center">
             <h1
-              class="max-w-8xl text-4xl font-extrabold leading-none tracking-tighter 
+              className="max-w-8xl text-4xl font-extrabold leading-none tracking-tighter 
             text-slate-800 dark:text-slate-50 md:text-5xl lg:max-w-7xl lg:text-6xl"
             >
               Microsoft{" "}
@@ -20,25 +20,25 @@ export const Hero = () => {
               </span>
               Emojis
             </h1>
-            <p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-slate-500 sm:mb-8">
+            <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-slate-500 sm:mb-8">
               All the Microsoft Teams animated emojis are available in one place
               and ready to use in your next project or README file.
             </p>
-            <div class="mx-auto mt-6 flex w-full max-w-2xl justify-center gap-2">
-              <div class="mt-3 rounded-lg sm:mt-0">
+            <div className="mx-auto mt-6 flex w-full max-w-2xl justify-center gap-2">
+              <div className="mt-3 rounded-lg sm:mt-0">
                 <a
                   href="https://github.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis"
-                  class="flex transform items-center justify-center rounded-xl bg-blue-600 px-5 py-4 text-center text-base font-medium
+                  className="flex transform items-center justify-center rounded-xl bg-blue-600 px-5 py-4 text-center text-base font-medium
                    text-white transition duration-500 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2
                     focus:ring-blue-500 focus:ring-offset-2 lg:px-10"
                 >
                   <DocumentTextIcon className="mr-1.5 h-5 w-5" /> Documentation
                 </a>
               </div>
-              <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+              <div className="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                 <a
                   href="https://github.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/tree/master/Emojis"
-                  class="flex transform items-center justify-center rounded-xl border-2  border-white
+                  className="flex transform items-center justify-center rounded-xl border-2  border-white
                   px-5 py-3.5 text-center text-base font-medium text-blue-600 shadow-md transition 
                   duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 
                   dark:border-slate-900 dark:bg-slate-800 dark:focus:ring-slate-800 lg:px-10"
