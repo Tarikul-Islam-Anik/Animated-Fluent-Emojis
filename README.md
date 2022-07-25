@@ -45,4 +45,4 @@ All the Microsoft Teams animated emojis are available in one place and ready to 
 <image src='assets/images/showcase 3.gif' alt='Microsoft Teams Animted emojis' />
 <image src='assets/images/showcase 4.gif' alt='Microsoft Teams Animted emojis' /></p>
 
-> All rights reserved Microsoft Teams. Media files are dowload from **[Emojipedia](https://emojipedia.org/)** huge shoutout to them . Gifs Credit: [Behance](https://www.behance.net/gallery/125956251/Microsoft-Emojis)
+> All rights reserved Microsoft Teams. Media files are dowloaded from **[Emojipedia](https://emojipedia.org/)** huge shoutout to them . Gifs Credit: [Behance](https://www.behance.net/gallery/125956251/Microsoft-Emojis)
