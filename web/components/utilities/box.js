@@ -24,12 +24,10 @@ export const Box = ({ url, alt }) => {
             className="group relative flex cursor-pointer flex-col items-center justify-center rounded-xl 
     bg-slate-100/60 p-4 transition hover:drop-shadow-sm dark:bg-slate-800"
           >
-            <Image
+            <img
               className="transition-all duration-300 ease-in-out group-hover:scale-110"
               src={url}
               alt={alt}
-              width={250}
-              height={250}
             />
             <p className="w-4/5 truncate rounded-md p-1 text-center text-xl font-semibold opacity-100 transition-all duration-200 ease-in-out group-hover:opacity-0">
               {alt}
