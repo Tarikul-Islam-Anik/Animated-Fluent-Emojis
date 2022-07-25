@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    html {
+        @apply scroll-smooth dark:bg-slate-900
+    }
+
+    h3 {
+        @apply text-4xl text-center font-bold col-span-full mb-4;
+    }
+
+    main {
+        @apply container mx-auto grid grid-cols-2 gap-5 p-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8;
+    }
+
+}
