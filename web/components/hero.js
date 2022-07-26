@@ -24,7 +24,7 @@ export const Hero = () => {
               All the Microsoft Teams animated emojis are available in one place
               and ready to use in your next project or README file.
             </p>
-            <div className="mx-auto mt-6 flex w-full max-w-2xl justify-center gap-2">
+            <div className="mx-auto mt-6 flex flex-col sm:flex-row w-full max-w-2xl justify-center gap-2">
               <div className="mt-3 rounded-lg sm:mt-0">
                 <a
                   href="https://github.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis"
@@ -41,7 +41,7 @@ export const Hero = () => {
                   className="flex transform items-center justify-center rounded-xl border-2  border-white
                   px-5 py-3.5 text-center text-base font-medium text-blue-600 shadow-md transition 
                   duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 
-                  dark:border-slate-900 dark:bg-slate-800 dark:focus:ring-slate-800 lg:px-10"
+                  dark:border-slate-900 dark:bg-slate-800 truncate dark:focus:ring-slate-800 lg:px-10"
                 >
                   <PhotographIcon className="mr-1.5 h-5 w-5" />
                   Source files

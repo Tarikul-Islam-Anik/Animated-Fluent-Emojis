@@ -20,7 +20,7 @@ export const Animals = () => {
       {items.slice(0, sliceIdx).map(([url, name]) => (
         <Box key={name} url={url} alt={name} />
       ))}
-      <div className="col-span-full my-6 flex items-center justify-center space-x-24">
+      <div className="col-span-full my-6 flex items-center justify-center space-x-4 md:space-x-24">
         <button
           className={`
           ${
