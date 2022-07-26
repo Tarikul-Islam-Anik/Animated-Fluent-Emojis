@@ -1,19 +1,19 @@
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { Category } from "../components/category";
-import { Hero } from "./../components/hero";
-import { Smilies } from "./../components/emojis/smilies";
-import { HandGestures } from "./../components/emojis/hand_gestures";
-import { People } from "./../components/emojis/people";
-import { Pwa } from "./../components/emojis/people_with_activities";
-import { Pwp } from "./../components/emojis/people_with_professions";
-import { Animals } from "./../components/emojis/animals";
-import { Food } from "./../components/emojis/food";
-import { TravelAndPlaces } from "./../components/emojis/travel_and_places";
-import { Objects } from "./../components/emojis/objects";
-import { Activities } from "./../components/emojis/activities";
-import { Symbols } from "./../components/emojis/Symbols";
-import { Footer } from "./../components/footer";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Category } from '../components/category';
+import { Hero } from './../components/hero';
+import { Smilies } from './../components/emojis/smilies';
+import { HandGestures } from './../components/emojis/hand_gestures';
+import { People } from './../components/emojis/people';
+import { Pwa } from './../components/emojis/people_with_activities';
+import { Pwp } from './../components/emojis/people_with_professions';
+import { Animals } from './../components/emojis/animals';
+import { Food } from './../components/emojis/food';
+import { TravelAndPlaces } from './../components/emojis/travel_and_places';
+import { Objects } from './../components/emojis/objects';
+import { Activities } from './../components/emojis/activities';
+import { Symbols } from './../components/emojis/Symbols';
+import { Footer } from './../components/footer';
 
 export default function Home() {
   return (

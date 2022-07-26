@@ -1,4 +1,4 @@
-import { LightningBoltIcon } from "@heroicons/react/solid";
+import { LightningBoltIcon } from '@heroicons/react/solid';
 
 export const Footer = () => {
   return (
@@ -10,14 +10,14 @@ export const Footer = () => {
       >
         <div className="flex flex-row">
           <p>Made with </p>
-           <LightningBoltIcon
+          <LightningBoltIcon
             aria-hidden="true"
-            className="animate-pulse w-4 h-4 mx-1 cursor-pointer text-green-400 dark:text-green-500"
+            className="animate-pulse mx-1 h-4 w-4 cursor-pointer text-green-400 dark:text-green-500"
           />
-          by 
+          by
           <a href="https://oxyzen.me/" className="mx-1">
             <strong>OxyZen</strong>
-          </a> 
+          </a>
         </div>
       </div>
     </footer>

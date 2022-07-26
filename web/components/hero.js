@@ -1,5 +1,5 @@
-import { DocumentTextIcon, PhotographIcon } from "@heroicons/react/outline";
-import DarkMode from "./darkmode_btn";
+import { DocumentTextIcon, PhotographIcon } from '@heroicons/react/outline';
+import DarkMode from './darkmode_btn';
 export const Hero = () => {
   return (
     <section className="relative col-span-full mx-auto w-full max-w-7xl items-center px-5 pt-12 pb-6 md:px-12 lg:px-16 lg:pt-24">
@@ -10,13 +10,13 @@ export const Hero = () => {
               className="max-w-8xl text-4xl font-extrabold leading-none tracking-tighter 
             text-slate-800 dark:text-slate-50 md:text-5xl lg:max-w-7xl lg:text-6xl"
             >
-              Microsoft{" "}
+              Microsoft{' '}
               <span
                 className="relative animate-move-bg bg-gradient-to-r from-indigo-500 
               via-pink-500 to-indigo-500 bg-[length:400%] bg-clip-text
                text-transparent"
               >
-                Animated{" "}
+                Animated{' '}
               </span>
               Emojis
             </h1>
