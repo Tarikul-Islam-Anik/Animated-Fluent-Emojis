@@ -8,7 +8,7 @@ All the Microsoft animated fluent emojis are available in one place and ready to
 
 ### How to use:
 
-1. Visit Here: [microsoft-teams-animated-emojis.vercel.app](https://microsoft-teams-animated-emojis.vercel.app/)
+1. Visit Here: [animated-fluent-emoji.vercel.app](https://animated-fluent-emoji.vercel.app/)
 2. You will see a list of emojis.
 3. Hit <kbd>CTRL+F</kbd> and type the emoji name to find it. (**[Name List](https://support.microsoft.com/en-us/office/view-all-available-emojis-b9c2ccda-9ad9-4dbb-a25d-bbcebf6311ae)**)
 4. Hover over the emoji.
