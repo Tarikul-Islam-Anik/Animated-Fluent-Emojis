@@ -39,17 +39,7 @@ function MyApp({ Component, pageProps }) {
           content="Microsoft Teams - Animated Emojis"
         />
       </Head>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-SB8TQ7JK4Y`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {` window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SB8TQ7JK4Y');`}
-      </Script>
+      <Script async src="https://cdn.splitbee.io/sb.js" />
       <Component {...pageProps} />
     </ThemeProvider>
   );
