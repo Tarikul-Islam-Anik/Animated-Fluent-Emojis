@@ -14,12 +14,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="OxyZen" />
         <meta
           name="description"
-          content="All the Microsoft Teams animated emojis are available in one place and ready to use in your next project or README file."
+          content="All the Microsoft Fluent animated emojis are available in one place and ready to use in your next project or README file."
         />
-        <meta property="og:title" content="Microsoft Teams - Animated Emojis" />
+        <meta property="og:title" content="Microsoft Fluent - Animated Emojis" />
         <meta
           property="og:description"
-          content="All the Microsoft Teams animated emojis are available in one place and ready to use in your next project or README file."
+          content="All the Microsoft Fluent animated emojis are available in one place and ready to use in your next project or README file."
         />
         <meta
           property="og:image"
@@ -27,16 +27,16 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:url"
-          content="https://Microsoft-Teams-Animated-Emojis.vercel.app"
+          content="https://animated-fluent-emoji.vercel.app"
         />
         <meta
           property="og:site_name"
-          content="Microsoft Teams - Animated Emojis"
+          content="Microsoft Fluent - Animated Emojis"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:image:alt"
-          content="Microsoft Teams - Animated Emojis"
+          content="Microsoft Fluent - Animated Emojis"
         />
       </Head>
       <Script async src="https://cdn.splitbee.io/sb.js" />
