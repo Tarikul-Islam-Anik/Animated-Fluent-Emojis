@@ -11,12 +11,16 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon.png" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
         <meta name="author" content="OxyZen" />
         <meta
           name="description"
           content="All the Microsoft Fluent animated emojis are available in one place and ready to use in your next project or README file."
         />
-        <meta property="og:title" content="Microsoft Fluent - Animated Emojis" />
+        <meta
+          property="og:title"
+          content="Microsoft Fluent - Animated Emojis"
+        />
         <meta
           property="og:description"
           content="All the Microsoft Fluent animated emojis are available in one place and ready to use in your next project or README file."
