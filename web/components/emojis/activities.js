@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Box } from '../utilities/box';
 import { fetcher } from '../utilities/fetcher';
-const API =
-  'https://api.github.com/repos/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/contents/Emojis/Activities';
+
+const API = `${process.env.NEXT_PUBLIC_API}Activities`;
 
 export const Activities = () => {
   const [items, setItems] = useState([]);

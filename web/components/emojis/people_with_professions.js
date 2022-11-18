@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Box } from '../utilities/box';
 import { fetcher } from '../utilities/fetcher';
-const API =
-  'https://api.github.com/repos/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/contents/Emojis/People%20with%20professions';
+
+const API = `${process.env.NEXT_PUBLIC_API}People%20with%20professions`;
 
 export const Pwp = () => {
   const [items, setItems] = useState([]);

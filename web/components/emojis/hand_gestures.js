@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Box } from '../utilities/box';
 import { fetcher } from '../utilities/fetcher';
-const API =
-  'https://api.github.com/repos/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/contents/Emojis/Hand%20gestures';
+
+const API = `${process.env.NEXT_PUBLIC_API}Hand%20gestures`;
 
 export const HandGestures = () => {
   const [items, setItems] = useState([]);
