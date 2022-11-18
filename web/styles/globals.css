@@ -11,7 +11,7 @@
     @apply col-span-full mb-4 text-center text-4xl font-bold;
   }
 
-  main {
-    @apply container mx-auto grid grid-cols-2 gap-5 p-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8;
+  .contain {
+    @apply container grid grid-cols-2 gap-5 p-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8;
   }
 }
