@@ -21,6 +21,7 @@ export const Category = () => {
     >
       {categories.map((category) => (
         <Link
+          key={category}
           href={`#${category
             .toLowerCase()
             .replace(' ', '-')
