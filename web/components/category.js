@@ -20,7 +20,12 @@ export const Category = () => {
     dark:bg-slate-800/75"
     >
       {categories.map((category) => (
-        <Link href={`#${category.toLowerCase().replace(' ', '-').replace(' ', '-')}`}>
+        <Link
+          href={`#${category
+            .toLowerCase()
+            .replace(' ', '-')
+            .replace(' ', '-')}`}
+        >
           <a className="rounded-md bg-slate-200/60 py-1.5 px-2 text-slate-700 transition hover:scale-[1.05] dark:bg-slate-700/80 dark:text-slate-300">
             {category}
           </a>

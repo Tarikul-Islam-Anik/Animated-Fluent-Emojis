@@ -20,8 +20,8 @@ export const Hero = () => {
               Fluent Emojis
             </h1>
             <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-slate-500 sm:mb-8">
-              All the Microsoft animated fluent emojis are available in one place
-              and ready to use in your next project or README file.
+              All the Microsoft animated fluent emojis are available in one
+              place and ready to use in your next project or README file.
             </p>
             <div className="mx-auto mt-6 flex w-full max-w-2xl flex-col justify-center gap-2 sm:flex-row">
               <div className="mt-3 rounded-lg sm:mt-0">

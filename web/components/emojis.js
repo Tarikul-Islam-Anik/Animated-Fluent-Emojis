@@ -2,19 +2,21 @@ import { useState, useEffect } from 'react';
 import { Box } from './utilities/box';
 import { fetcher } from './utilities/fetcher';
 
-export const Emojis = ({name}) => {
+export const Emojis = ({ name }) => {
   const [items, setItems] = useState([]);
   const [sliceIdx, setSliceIdx] = useState(16);
   const [input, setInput] = useState('');
-  
+
   useEffect(() => {
-    fetcher(`${process.env.NEXT_PUBLIC_API}${name.replace(' ', '%20').replace(' ', '%20')}`).then(
-      (data) => {
-        setItems(
-          data.map((item) => [item.download_url, item.name.replace('.png', '')])
-        );
-      }
-    );
+    fetcher(
+      `${process.env.NEXT_PUBLIC_API}${name
+        .replace(' ', '%20')
+        .replace(' ', '%20')}`
+    ).then((data) => {
+      setItems(
+        data.map((item) => [item.download_url, item.name.replace('.png', '')])
+      );
+    });
   }, []);
 
   const handleInput = (e) => {

@@ -1,6 +1,6 @@
 import { saveAs } from 'file-saver';
 import { DownloadIcon, CodeIcon } from '@heroicons/react/solid';
-import { toast } from 'react-toastify';
+import toast from 'react-hot-toast';
 
 const downloadImage = (url, filename) => {
   saveAs(url, filename);
