@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Box } from './utilities/box';
 import { fetcher } from './utilities/fetcher';
 
-export const Section = ({name}) => {
+export const Emojis = ({name}) => {
   const [items, setItems] = useState([]);
   const [sliceIdx, setSliceIdx] = useState(16);
   const [input, setInput] = useState('');
@@ -26,7 +26,7 @@ export const Section = ({name}) => {
   });
 
   return (
-    <>
+    <section>
       <div className="container mt-8 flex justify-between px-2">
         <h3 id={name.toLowerCase().replace(' ', '-').replace(' ', '-')}>
           {name}
@@ -95,6 +95,6 @@ export const Section = ({name}) => {
           Load all
         </button>
       </div>
-    </>
+    </section>
   );
 };
