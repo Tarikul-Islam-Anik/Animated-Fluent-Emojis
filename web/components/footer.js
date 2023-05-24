@@ -15,7 +15,7 @@ export const Footer = () => {
             className="animate-pulse mx-1 h-4 w-4 cursor-pointer text-green-400 dark:text-green-500"
           />
           by
-          <a href="https://oxyzen.me/" className="mx-1">
+          <a href="https://oxyzen.vercel.app/" className="mx-1">
             <strong>OxyZen</strong>
           </a>
         </div>

@@ -1,6 +1,6 @@
 <image src='assets/images/banner.gif' alt='Microsoft Teams Animted emojis' />
 
-# [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) Animted emojis
+# [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) Fluent Animated emojis
 
 All the Microsoft animated fluent emojis are available in one place and ready to use in your next project or README file.
 
