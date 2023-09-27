@@ -30,9 +30,9 @@ export const Hero = () => {
                   href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"
                   className={
                     buttonVariants({
-                      variant: "secondary",
+                      variant: "default",
                       size: "lg",
-                    }) + " truncate bg-blue-500 text-white"
+                    }) + " truncate bg-blue-500 text-white hover:bg-blue-500/90"
                   }
                 >
                   <DocumentTextIcon className="mr-1.5 h-5 w-5" /> Documentation
