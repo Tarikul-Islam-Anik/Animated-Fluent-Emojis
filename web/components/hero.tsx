@@ -28,12 +28,10 @@ export const Hero = () => {
               <div className="mt-3 rounded-lg sm:mt-0">
                 <a
                   href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"
-                  className={
-                    buttonVariants({
-                      variant: "default",
-                      size: "lg",
-                    }) + " truncate bg-blue-500 text-white hover:bg-blue-500/90"
-                  }
+                  className={buttonVariants({
+                    variant: "default",
+                    size: "lg",
+                  })}
                 >
                   <DocumentTextIcon className="mr-1.5 h-5 w-5" /> Documentation
                 </a>
@@ -41,12 +39,10 @@ export const Hero = () => {
               <div className="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                 <a
                   href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/tree/master/Emojis"
-                  className={
-                    buttonVariants({
-                      variant: "secondary",
-                      size: "lg",
-                    }) + " truncate"
-                  }
+                  className={buttonVariants({
+                    variant: "secondary",
+                    size: "lg",
+                  })}
                 >
                   <PhotoIcon className="mr-1.5 h-5 w-5" />
                   Source files
@@ -55,12 +51,10 @@ export const Hero = () => {
               <div className="mt-3  rounded-lg sm:mt-0 sm:ml-3">
                 <a
                   href="https://telegram-animated-emojis.vercel.app/"
-                  className={
-                    buttonVariants({
-                      variant: "secondary",
-                      size: "lg",
-                    }) + " truncate"
-                  }
+                  className={buttonVariants({
+                    variant: "secondary",
+                    size: "lg",
+                  })}
                 >
                   <TeleEmoji />
                 </a>
