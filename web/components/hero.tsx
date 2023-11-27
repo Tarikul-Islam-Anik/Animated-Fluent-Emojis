@@ -1,4 +1,5 @@
 import { DocumentTextIcon, PhotoIcon } from "@heroicons/react/24/outline";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import TeleEmoji from "./telegram-emoji";
 import { buttonVariants } from "./ui/button";
 export const Hero = () => {
@@ -20,11 +21,18 @@ export const Hero = () => {
               </span>
               Fluent Emojis
             </h1>
-            <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-slate-500 sm:mb-8">
+            <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-slate-500">
               All the Microsoft animated fluent emojis are available in one
               place and ready to use in your next project or README file.
             </p>
-            <div className="mx-auto mt-6 flex w-full max-w-2xl flex-col justify-center gap-2 sm:flex-row">
+            <Alert className="my-4">
+              <span className="h-4 w-4">🇵🇸 </span>
+              <AlertTitle>Free Palestine: A Call for Justice!</AlertTitle>
+              <AlertDescription>
+                Demanding Palestine&apos;s Freedom & Global Support
+              </AlertDescription>
+            </Alert>
+            <div className="mx-auto flex w-full max-w-2xl flex-col justify-center gap-2 sm:flex-row">
               <div className="mt-3 rounded-lg sm:mt-0">
                 <a
                   href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"
