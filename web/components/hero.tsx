@@ -58,7 +58,7 @@ export const Hero = () => {
               </div>
               <div className="mt-3  rounded-lg sm:mt-0 sm:ml-3">
                 <a
-                  href="https://telegram-animated-emojis.vercel.app/"
+                  href="https://telegram-emojis.vercel.app/"
                   className={buttonVariants({
                     variant: "secondary",
                     size: "lg",
